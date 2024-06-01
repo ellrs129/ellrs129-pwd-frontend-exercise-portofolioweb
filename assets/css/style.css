@@ -1,0 +1,64 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Global Styles */
+body {
+  padding: 24px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+}
+
+/* Header style */
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ul li button {
+  background-color: transparent;
+  border: none;
+}
